@@ -12,7 +12,7 @@ a {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .main-nav {
@@ -36,4 +36,4 @@ body {
 .main-nav .nav-links .nav-item:hover {
   font-size: 1.2rem;
   color: darkred;
-}/*# sourceMappingURL=main.css.map */
+}
