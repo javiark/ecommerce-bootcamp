@@ -9,11 +9,19 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav class="navbar">
-            <a href="/index.html" class="navbarr__nav-link">
-                <img  class="navbar__logo" src="/assets/images/abascay.png" alt="logo del ecommerce" width="200px">
+            <a href="/index.html" class="navbar__nav-link">
+                <img  class="navbar__logo" src="/assets/images/abascay.png" alt="logo del ecommerce">
             </a>
+
+            <input type="checkbox" class="navbar__menu-btn" id="menu-btn">
+
+            <label for="menu-btn" class="navbar__menu-label">
+                <span class="navbar__menu-icon"></span>
+            </label>
+
+
             <ul class="navbar__nav-links-container">
                 <li class="navbar__nav-item">
                     <a href="/index.html" class="navbar__nav-link">Inicio</a>
@@ -94,6 +102,84 @@
                         </div>
                     </div>
                 </article>
+                <article class="card">
+                    <div class="card__header">
+                        <img src="#" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            PRODUCT NAME
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus laudantium expedita nesciunt dolores. Culpa consequuntur doloribus ab aperiam?
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Detalle
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__header">
+                        <img src="#" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            PRODUCT NAME
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus laudantium expedita nesciunt dolores. Culpa consequuntur doloribus ab aperiam?
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Detalle
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__header">
+                        <img src="#" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            PRODUCT NAME
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus laudantium expedita nesciunt dolores. Culpa consequuntur doloribus ab aperiam?
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Detalle
+                            </a>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
     </main>
@@ -105,34 +191,34 @@
     </div>
     <footer class="footer">
         <div class="footer__column">
-            <img src="/assets/images/abascay.png" alt="company logo" class="footer__logo" width="50px">
+           
             <ul class="footer__social-media-container">
                 <li class="footer_social-media-item">
-                    <a href="#" class="footer__social-media-link">
+                    <a href="#" class="footer__contact-link">
                         <!-- Icono -->
+                        <i class="fa-brands fa-facebook footer__contact-icon"></i>
                         Facebook
                     </a>
                 </li>
                 <li class="footer_social-media-item">
-                    <a href="#" class="fa-brands fa-facebook footer__contact-icon">
+                    <a href="#" class="footer__contact-link">
                         <!-- Icono -->
-                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram footer__contact-icon"></i>
                         Instagram
                     </a>
                 </li>
                 <li class="footer_social-media-item">
-                    <a href="#" class="footer__social-media-link">
+                    <a href="#" class="footer__contact-link">
                         <!-- Icono -->
-                        <a href="#" class="fa-brands fa-instagram footer__contact-icon">
-                            <i href="#" class="fa-solid fa-location-dot footer__contact-icon"></i>
-                        </a>
+                        <i href="#" class="fa-brands fa-linkedin footer__contact-icon"></i>
                         Linkedin
                     </a>
                 </li>
             </ul>
         </div>
+ 
         <div class="footer__column">
-            <img src="#" alt="Company Logo" class="footer__logo">
+            <img src="/assets/images/abascay.png" alt="Company Logo" class="footer__logo" width="100px">
             <h1 class="footer__company-name">
                 NOMBRE DE LA EMPRESA
             </h1>
@@ -142,21 +228,21 @@
         </div>
         <div class="footer__column">
             <ul class="footer__social-media-container">
-                <li class="footer_social-media-item footer__contact-link">
-                    <a href="#" class="footer__social-media-link">
-                        <!-- Icono -->
+                <li class="footer_social-media-item">
+                    <a href="#" class="footer__contact-link">
+                        <i class="fa-solid fa-phone"></i>
                         Telefono
                     </a>
                 </li>
                 <li class="footer_social-media-item">
-                    <a href="#" class="footer__social-media-link">
-                        <!-- Icono -->
+                    <a href="#" class="footer__contact-link">
+                        <i class="fa-solid fa-location-dot"></i>
                         Localizacion
                     </a>
                 </li>
                 <li class="footer_social-media-item">
-                    <a href="#" class="footer__social-media-link">
-                        <!-- Icono -->
+                    <a href="#" class="footer__contact-link">
+                        <i class="fa-regular fa-envelope"></i>
                         Email
                     </a>
                 </li>
