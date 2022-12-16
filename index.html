@@ -11,9 +11,18 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="/index.html" class="navbarr__nav-link">
-                <img  class="navbar__logo" src="/assets/images/abascay.png" alt="logo del ecommerce" width="200px">
+            <a href="/index.html" class="navbar__nav-link">
+                <img  class="navbar__logo" src="/assets/images/abascay.png" alt="logo del ecommerce" >
             </a>
+
+
+            <input type="checkbox" class="navbar__menu-btn" id="menu-btn">
+
+            <label for="menu-btn" class="navbar__menu-icon">
+                <span class="navbar__menu-icon"></span>
+            </label>
+
+
             <ul class="navbar__nav-links-container">
                 <li class="navbar__nav-item">
                     <a href="/index.html" class="navbar__nav-link">Inicio</a>
@@ -93,6 +102,7 @@
                             </a>
                         </div>
                     </div>
+                    
                 </article>
             </div>
         </section>
@@ -105,34 +115,36 @@
     </div>
     <footer class="footer">
         <div class="footer__column">
-            <img src="/assets/images/abascay.png" alt="company logo" class="footer__logo" width="50px">
+           
             <ul class="footer__social-media-container">
                 <li class="footer_social-media-item">
                     <a href="#" class="footer__social-media-link">
                         <!-- Icono -->
+                        <i class="fa-brands fa-facebook footer__contact-icon"></i>
                         Facebook
                     </a>
                 </li>
                 <li class="footer_social-media-item">
-                    <a href="#" class="fa-brands fa-facebook footer__contact-icon">
+                    <a href="#" class="footer__contact-icon">
                         <!-- Icono -->
-                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram footer__contact-icon"></i>
                         Instagram
                     </a>
                 </li>
                 <li class="footer_social-media-item">
                     <a href="#" class="footer__social-media-link">
                         <!-- Icono -->
-                        <a href="#" class="fa-brands fa-instagram footer__contact-icon">
-                            <i href="#" class="fa-solid fa-location-dot footer__contact-icon"></i>
+                        <a href="#" class="footer__contact-icon">
+                            <i href="#" class="fa-brands fa-linkedin footer__contact-icon"></i>
                         </a>
                         Linkedin
                     </a>
                 </li>
             </ul>
         </div>
+ 
         <div class="footer__column">
-            <img src="#" alt="Company Logo" class="footer__logo">
+            <img src="/assets/images/abascay.png" alt="Company Logo" class="footer__logo" width="50px">
             <h1 class="footer__company-name">
                 NOMBRE DE LA EMPRESA
             </h1>
@@ -144,19 +156,19 @@
             <ul class="footer__social-media-container">
                 <li class="footer_social-media-item">
                     <a href="#" class="footer__social-media-link">
-                        <!-- Icono -->
+                        <i class="fa-solid fa-phone"></i>
                         Telefono
                     </a>
                 </li>
                 <li class="footer_social-media-item">
                     <a href="#" class="footer__social-media-link">
-                        <!-- Icono -->
+                        <i class="fa-solid fa-location-dot"></i>
                         Localizacion
                     </a>
                 </li>
                 <li class="footer_social-media-item">
                     <a href="#" class="footer__social-media-link">
-                        <!-- Icono -->
+                        <i class="fa-regular fa-envelope"></i>
                         Email
                     </a>
                 </li>
