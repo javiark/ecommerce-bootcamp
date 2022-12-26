@@ -45,29 +45,34 @@ body {
 }
 .card__title {
   font-weight: 500;
-  font-size: 1.5rem;
-  border-bottom: 2px solid orangered;
+  font-size: 1rem;
+  border-bottom: 2px solid;
 }
 .card__description {
   padding: 1.5rem 0 2rem;
+  font-size: 0.8rem;
+}
+.card__list {
+  padding: 1.5rem 0 2rem;
+  list-style-type: none;
+  font-size: 0.8rem;
+  margin-top: 0;
 }
 .card__price {
   font-weight: 500;
-  font-size: 1.5rem;
-  color: rgb(4, 98, 20);
+  font-size: 1.3rem;
 }
 .card__footer {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 1px;
   padding: 1rem;
-}
-.card__date {
-  color: dodgerblue;
 }
 .card__btn {
   padding: 1rem 1.5rem;
-  background-color: dodgerblue;
+  background-color: #c3a343;
   color: white;
+  border-radius: 8px;
 }
 
 .header {

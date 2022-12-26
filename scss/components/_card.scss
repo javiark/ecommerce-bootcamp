@@ -18,35 +18,47 @@
 
     &__title {
         font-weight: 500;
-        font-size: 1.5rem;
-        border-bottom: 2px solid orangered;
+        font-size: 1rem;
+        border-bottom: 2px solid ;
     }
 
     &__description {
         padding: 1.5rem 0 2rem;
+        font-size: 0.8rem;
+       
+    }
+    &__list {
+        padding: 1.5rem 0 2rem;
+        list-style-type:none;
+        font-size: 0.8rem;
+        margin-top: 0;
+        
+
     }
 
     &__price {
         font-weight: 500;
-        font-size: 1.5rem;
-        color: $color-bg-primary;
+        font-size: 1.3rem;
+        // color: $color-bg-secondary;
     }
 
     &__footer {
         display: flex;
         justify-content: space-between;
+        padding-bottom: 1px;
         padding: 1rem;
     }
 
     &__date {
-        color: dodgerblue;
+        // color:#c3a343;
     }
 
     &__btn-container {}
     
     &__btn {
         padding: 1rem 1.5rem;
-        background-color: dodgerblue;
+        background-color: #c3a343;
         color: white;
+        border-radius: 8px;
     }
 }
