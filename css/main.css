@@ -71,24 +71,38 @@ body {
   font-size: 0.8rem;
   margin-top: 1px;
 }
+.card__info {
+  display: flex;
+  justify-content: space-between;
+}
 .card__price {
   font-weight: 500;
   font-size: 1.3rem;
-  padding-top: 20px;
+  padding-top: 1rem;
   padding-bottom: 0;
 }
-.card__footer {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 0;
-  padding: 0.5rem;
-  margin-bottom: 1;
+.card__date {
+  padding-top: 1rem;
 }
 .card__btn {
+  padding: 1rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.2039215686);
+  color: white;
+  border-radius: 8px;
+}
+.card__btn-buy {
   padding: 1rem 1.5rem;
   background-color: #c3a343;
   color: white;
   border-radius: 8px;
+}
+.card__footerCard {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 0;
+  padding: 0.5rem;
+  margin-bottom: 1;
 }
 
 .header {
@@ -269,7 +283,9 @@ body {
 }
 .section-cards__products-search-container {
   padding: 1rem;
-  background-color: cornflowerblue;
+  background-color: rgb(230, 230, 230);
+  border-radius: 1rem;
+  font-size: 1.2rem;
 }
 .section-cards .cards-container {
   display: flex;
@@ -366,5 +382,181 @@ body {
   .main {
     display: inline-block;
     flex-direction: row;
+  }
+}
+.bodyform {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerCard {
+  text-align: center;
+  letter-spacing: 3px;
+  height: 80px;
+  display: flex;
+}
+.headerCard__title {
+  width: 100%;
+  align-items: center;
+  padding-top: 5rem;
+  border-bottom: 0.1rem #8a8a8a solid;
+  padding: 0.2rem;
+  margin: 1rem;
+  color: #535353;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register__form {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 41rem;
+  background-color: #eeeeee;
+  padding: 15px;
+  box-shadow: 0px 1px 2px rgb(20, 20, 20);
+  margin-bottom: 5rem;
+}
+.register__text1 {
+  color: #000000;
+  padding-bottom: 15px;
+  font-size: 0.8rem;
+}
+.register__box {
+  border: none;
+  height: 2rem;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+  color: #b4b4b4;
+  width: 23rem;
+}
+.register__casillero {
+  border: none;
+  padding-bottom: 1.2em;
+}
+.register__casillero1 {
+  border: none;
+  padding-bottom: 3em;
+}
+.register__boxmail {
+  border: none;
+  position: absolute;
+  font-weight: 100;
+  height: 2rem;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+  color: #b4b4b4;
+  width: 23rem;
+}
+.register__button {
+  position: relative;
+  left: 21.3rem;
+  top: 0.3rem;
+  height: 1rem;
+  width: 1rem;
+  background-color: #d6403a;
+  border-radius: 0.3rem;
+  border: none;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.register__3points {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: right;
+}
+.register__password {
+  border: none;
+  height: 2rem;
+  font-weight: 700;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+  width: 23rem;
+}
+.register__age {
+  border: none;
+  height: 2rem;
+  font-weight: 700;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+  width: 23rem;
+}
+.register__borndate {
+  border: none;
+  height: 2rem;
+  font-weight: 700;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+  width: 23rem;
+  color: #b4b4b4;
+}
+.register__country {
+  border: none;
+  height: 2rem;
+  font-weight: 700;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+  width: 23rem;
+  color: #b4b4b4;
+}
+.register__check {
+  display: flex;
+}
+.register__gender {
+  display: flex;
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  margin-left: 1rem;
+  gap: 0.7rem;
+  margin-left: 0;
+}
+.register__agree {
+  display: flex;
+  padding-top: 1.5rem;
+  color: rgb(0, 0, 0);
+  gap: 0.7rem;
+}
+.register .button {
+  padding-top: 0.6rem;
+}
+.register .button__send {
+  background-color: #c3a343;
+  border: none;
+  color: white;
+  height: 2rem;
+  width: 4rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.register input:focus, .register textarea:focus {
+  color: rgb(9, 4, 83);
+}
+.register .footerCard {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+}
+@media screen and (max-width: 600px) {
+  .register .headerCard {
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+  .register .headerCard__title {
+    font-size: 32px;
+    margin-top: 1rem;
+  }
+  .register .footerCard {
+    padding: 10px;
   }
 }
