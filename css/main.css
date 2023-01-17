@@ -275,26 +275,6 @@ body {
   font-size: 25px;
 }
 
-.whatsapp-container {
-  /* margin: 15px; */
-  position: fixed;
-  right: 15px;
-  bottom: 0;
-  /* background-color: black; */
-  color: dodgerblue;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.whatsapp-container____go-top {
-  color: rgb(0, 0, 0);
-  font-size: 36px;
-}
-
-.logoWP {
-  height: 5rem;
-}
-
 .section-cards__header {
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -582,4 +562,24 @@ body {
   .register .footerCard {
     padding: 10px;
   }
+}
+
+.whatsapp-container {
+  /* margin: 15px; */
+  position: fixed;
+  right: 15px;
+  bottom: 0;
+  /* background-color: black; */
+  color: dodgerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whatsapp-container____go-top {
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+}
+
+.logoWP {
+  height: 5rem;
 }
