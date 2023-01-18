@@ -2,11 +2,15 @@
     display: flex;
     flex-direction: column;
     background-color: $color-dark-gray;
-    &__column {
+    justify-content: space-between;
+    padding-right:5rem;
+    &__column { 
+        justify-content: space-between;
         padding: 1rem 1.5rem;
     }
 
     &__contact-item {
+
         list-style: none;
         
 
@@ -18,6 +22,7 @@
         display: flex;
         align-items: center;
         gap: .5rem;
+        color:#535353;
         
 
         
@@ -34,8 +39,19 @@
         &--linkedin {
             color: #0077b6;
         }
+        &--phone{
+            color: #01eb01c7;
+          
+        }
+        &--location{
+            color: #38529a;
+        }
+        &--email{
+            color: white;
+        }
     }
 }
+
 
 @media screen and(min-width: 600px) {
     .footer {
