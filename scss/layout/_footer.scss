@@ -4,17 +4,16 @@
     background-color: $color-dark-gray;
     justify-content: space-between;
     padding-right:5rem;
+
+    &__contact-item {
+        list-style: none;   
+    }
     &__column { 
         justify-content: space-between;
         padding: 1rem 1.5rem;
     }
 
-    &__contact-item {
 
-        list-style: none;
-        
-
-    }
 
     &__contact-link {
         color: white;
@@ -22,10 +21,7 @@
         display: flex;
         align-items: center;
         gap: .5rem;
-        color:#535353;
-        
-
-        
+        color:#535353;   
     }
 
     &__contact-icon {
@@ -41,13 +37,12 @@
         }
         &--phone{
             color: #01eb01c7;
-          
         }
         &--location{
-            color: #38529a;
+            color: #9a388d;
         }
         &--email{
-            color: white;
+            color: rgb(241, 234, 234);
         }
     }
 }
