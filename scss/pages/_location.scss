@@ -1,0 +1,18 @@
+
+
+.ContactLocation {
+    // flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    padding: 30px;
+    padding-top: 20px;
+    background-color: rgb(235, 234, 234);
+
+
+    &__Iframe{  
+
+        width:900px;
+        height:450px;
+    }
+}

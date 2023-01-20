@@ -269,10 +269,10 @@ body {
   color: #0077b6;
 }
 .footer__contact-icon--phone {
-  color: rgba(1, 235, 1, 0.7803921569);
+  color: rgba(16, 224, 16, 0.5607843137);
 }
 .footer__contact-icon--location {
-  color: #ac074c;
+  color: #003fee;
 }
 .footer__contact-icon--email {
   color: rgb(255, 254, 254);
@@ -310,9 +310,6 @@ body {
   background-color: rgb(230, 230, 230);
   border-radius: 1rem;
   font-size: 1.2rem;
-<<<<<<< HEAD
-  color: darkred;
-=======
 }
 .section-cards .cards-container {
   display: flex;
@@ -680,5 +677,16 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
->>>>>>> FT-main-cards
+}
+.ContactLocation {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 30px;
+  padding-top: 20px;
+  background-color: rgb(235, 234, 234);
+}
+.ContactLocation__Iframe {
+  width: 900px;
+  height: 450px;
 }
