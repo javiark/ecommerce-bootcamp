@@ -46,6 +46,10 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.card__img:hover {
+  transform: scale(1.04);
+  transition: 0.5s ease-in-out;
+}
 .card__body {
   display: flex;
   flex-direction: column;
@@ -127,7 +131,8 @@ body {
 .navbar__menu-label {
   color: rgb(255, 255, 255);
   height: 42px;
-  background-color: orangered;
+  background-color: #C3A343;
+  border-radius: 5px;
   width: 42px;
   margin-right: 4px;
   display: flex;
@@ -236,12 +241,12 @@ body {
   justify-content: space-between;
   padding-right: 5rem;
 }
+.footer__contact-item {
+  list-style: none;
+}
 .footer__column {
   justify-content: space-between;
   padding: 1rem 1.5rem;
-}
-.footer__contact-item {
-  list-style: none;
 }
 .footer__contact-link {
   color: white;
@@ -267,10 +272,13 @@ body {
   color: rgba(1, 235, 1, 0.7803921569);
 }
 .footer__contact-icon--location {
-  color: #38529a;
+  color: #ac074c;
 }
 .footer__contact-icon--email {
-  color: white;
+  color: rgb(255, 254, 254);
+}
+.footer__contact-icon--home {
+  color: rgb(241, 234, 234);
 }
 
 @media screen and (min-width: 600px) {
@@ -595,4 +603,78 @@ body {
 
 .logoWP {
   height: 5rem;
+}
+
+.section-info__header {
+  font-size: 1rem;
+  text-align: center;
+}
+.section-info__subtitle {
+  color: #444;
+  font-size: 1rem;
+  margin: 1rem 25rem 1rem 25rem;
+}
+.section-info__products-search-container {
+  padding: 1rem;
+  background-color: rgb(230, 230, 230);
+  border-radius: 1rem;
+  font-size: 1.2rem;
+}
+.section-info .cards-container {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.imageAboutUs {
+  height: 45rem;
+}
+
+@media screen and (max-width: 500px) {
+  .form {
+    padding: 10px;
+    height: 450px;
+    width: 330px;
+  }
+  .form__Nombre {
+    width: 310px;
+  }
+  .form__Email {
+    width: 310px;
+  }
+  .form__Consults {
+    width: 310px;
+  }
+  .Contact {
+    flex-direction: row;
+  }
+  .Contact__Iframe {
+    width: 330px;
+    height: 350px;
+  }
+  .imageAboutUs {
+    height: 20rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section-info__header {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .section-info__subtitle {
+    color: #444;
+    font-size: 1rem;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+  .section-info__products-search-container {
+    padding: 1rem;
+    background-color: rgb(230, 230, 230);
+    border-radius: 1rem;
+    font-size: 1.2rem;
+  }
+  .section-info .cards-container {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }

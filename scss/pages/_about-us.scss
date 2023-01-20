@@ -1,0 +1,91 @@
+.section-info {
+    &__header {
+        // text-transform: uppercase;
+        font-size: 1rem;
+        text-align: center;
+    }
+    &__subtitle {
+        color: #444;
+        font-size: 1rem;
+        margin: 1rem 25rem 1rem 25rem;
+    }
+    &__products-search-container {
+        padding: 1rem;
+        background-color: rgb(230, 230, 230);
+        border-radius: 1rem;
+        font-size: 1.2rem;
+        
+    }
+
+    .cards-container {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+}
+
+.imageAboutUs {
+    height:45rem;
+}
+
+@media screen and (max-width: 500px) {
+    .form { 
+        padding: 10px;
+        height: 450px;
+        width: 330px;
+        &__Nombre {
+            width:310px;
+        }
+        &__Email {
+            width:310px;
+        }
+        &__Consults{
+            width:310px;
+    
+        }
+    }
+    .Contact {
+        // background-color: brown;
+        flex-direction: row;
+        &__Iframe{  
+            width:330px;
+            height:350px;
+        }   }
+    
+        .imageAboutUs {
+            height:20rem;
+            // display: flex;
+            // justify-content: space-evenly;
+            object-fit: cover;
+            
+        }
+
+        .section-info {
+            &__header {
+                // text-transform: uppercase;
+                font-size: 1rem;
+                text-align: center;
+            }
+            &__subtitle {
+                color: #444;
+                font-size: 1rem;
+                margin: 0rem 1rem 0rem 1rem;
+            }
+            &__products-search-container {
+                padding: 1rem;
+                background-color: rgb(230, 230, 230);
+                border-radius: 1rem;
+                font-size: 1.2rem;
+                
+            }
+        
+            .cards-container {
+                display: flex;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            }
+        
+        }
+    
+    }
