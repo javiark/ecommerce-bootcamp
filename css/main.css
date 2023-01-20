@@ -396,6 +396,9 @@ body {
   .form__Consults {
     width: 310px;
   }
+  .logoAbascay {
+    height: 60px;
+  }
   .Contact {
     flex-direction: row;
   }
