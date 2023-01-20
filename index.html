@@ -4,16 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Ecomerce</title>
+    
+    <title>Home - Ecommerce</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/main.css">
+
 </head>
 <body>
-    <header>
+    <header id="home" class="header">
         <nav class="navbar">
-            <a href="/index.html" class="navbarr__nav-link">
-                <img  class="navbar__logo" src="/assets/images/abascay.png" alt="logo del ecommerce" width="200px">
+            <a href="/index.html" class="navbar__nav-link">
+                <img class="navbar__logo" src="/assets/images/logo1.abascay-sin fondo.png" alt="Logo del ecommerce">
             </a>
+            <div class="user-navbar">
+                <div class="user-navbar__cart-icon-container">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="user-navbar__user-avatar-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/100px-Default_pfp.svg.png" class="user-navbar__user-avatar" alt="Imagen de usuario">
+                </div>
+                <!-- TODO: avatar de la persona logueada o nombre -->
+            </div>
+            
+            <input type="checkbox" class="navbar__menu-btn" id="menu-btn">
+
+            <label for="menu-btn" class="navbar__menu-label">
+                <span class="navbar__menu-icon"></span>
+            </label>
+
+
             <ul class="navbar__nav-links-container">
                 <li class="navbar__nav-item">
                     <a href="/index.html" class="navbar__nav-link">Inicio</a>
@@ -22,71 +42,277 @@
                     <a href="/pages/contact/contact.html" class="navbar__nav-link">Contacto</a>
                 </li>
                 <li class="navbar__nav-item">
-                    <a href="/pages/about-us/about-us.html" class="navbar__nav-link">Nosotros
-                    </a>
+                    <a href="/pages/about-us/about-us.html" class="navbar__nav-link">Nosotros</a>
                 </li>
                 <li class="navbar__nav-item">
-                    <a href="/pages/register/register.html" class="navbar__nav-link">Registrarse</a>
+                    <a href="/pages/register/register.html" class="navbar__nav-link" target="_blank">Registro</a>
                 </li>
             </ul>
         </nav>
-        <div class="user-navbar">
-            <div class="user-navbar__cart-icon-container">
-                <!-- TODO: add font icon and icon item -->
-                IC
-            </div>
-            <!-- TODO: avatar de la persona logueada o el nombren -->
-        </div>
+        
     </header>
-    <!-- TODO: Implementar Carrousel en 2do modulo -->
-   
-    <main>
+    <!-- TODO: Implementar carousel en 2do módulo -->
+    <main class="main">
         <section class="section-cards">
             <header class="section-cards__header">
                 <div class="section-cards__title-container">
+                    <h1 class="section-cards__title">
+                        INFORMACIÓN IMPORTANTE
+                    </h1>
+                    <p class="section-cards__subtitle">
+                        CHEQUEÁ EL MÍNIMO PARA TU ZONA Y DÍAS DE ENTREGA / DEMORA MÍNIMA: 48 HORAS / HORARIOS SUJETOS AL RECORRIDO / ANTES DEL ENVÍO, CONFIRMAREMOS POR MAIL EL DÍA DE ENTREGA / NO REALIZAMOS ENTREGAS DENTRO DE BARRIOS CERRADOS, SOLO EN LA ENTRADA :)
+                    </p>
                 </div>
-                <h1 class="section-cards__title">
-                    Lorem ipsum dolor sit amet.
-                </h1>
-                <p class="section-cards__subtitle">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quis quisquam in et praesentium sapiente!
-                </p>
                 <div class="section-cards__products-search-container">
+                    
                     <div class="product-search">
-                        <label for="
-                        " class="product-search__label">Buscar</label>
-                        <input type="text" class="proudct-search__input">
+                        <label for="" class="product-search__label">Buscar</label>
+                        <input type="text" class="product-search__input">
                         <button class="product-search__btn">Buscar</button>
                     </div>
+
                     <div class="section-cards__products-count">
                         Se encontraron X productos
                     </div>
                 </div>
             </header>
-
+            <h1 class="section-cards__category">
+                CATEGORÍA: OFERTAS
+            </h1>
             <div class="cards-container">
-                <h1 class="cards-container__category">
-                    CATEGORÍA: OFERTAS
-                </h1>
                 <article class="card">
                     <div class="card__header">
-                        <img src="#" alt="Product Image" class="card__img">
+                        <img src="/assets/images/imagen1.webp" alt="Product Image" class="card__img">
                     </div>
                     <div class="card__body">
                         <div class="card__title">
-                            PRODUCT NAME
+                            BOX ABASCAY - NUEVA EDICIÓN
                         </div>
-                        <p class="card__description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus laudantium expedita nesciunt dolores. Culpa consequuntur doloribus ab aperiam?
-                        </p>
-                        <div class="card__price">
-                            $ XXXXX
+                        <div class="card__description">
+                            
+                                <p class="card__texto">1 Halloumi (300 g aprox)</p> 
+                                <p class="card__texto">1 Orégano (300 g aprox)</p> 
+                                <p class="card__texto">1 Gouda (300 g aprox)</p> 
+                                <p class="card__texto">1 Sardo (300 g aprox)</p> 
+                                <p class="card__texto">1 Sbrinz (300 g aprox) </p> 
+                                <p class="card__texto">1 Queso Tybo (300 g aprox)</p>
+                           
+                        </div>
+                        <div class="card__info">
+                            <div class="card__date">
+                            12/01/2023
+                            </div>
+                            <div class="card__price">
+                            $9.200,00
+                            </div>
                         </div>
                     </div>
-                    <div class="card__footer">
-                        <div class="card__date">
-                            13/12/2022
+                    <div class="card__footerCard">
+                        <a class="card__btn-buy" href="#">
+                            Comprar
+                        </a>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Detalle
+                            </a>
                         </div>
+                    </div>
+                </article>    
+
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/imagen2.webp" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            CUARTIROLO PORTEÑO - NUEVO!
+                        </div>
+                        <div class="card__description">
+                            <p class="card__texto">Queso Cuartirolo - LIBRE DE GLUTEN</p> 
+                            <p class="card__texto">Contiene 350 g aproximadamente</p> 
+                            <p class="card__texto">Producto fresco</p> 
+                            <p class="card__texto">INGREDIENTES: LECHE ORGÁNICA PASTEURIZADA DE VACA, CREMA DE LECHE ORGÁNICA PASTEURIZADA, CLORURO DE CALCIO, ENZIMAS COAGULNTES, CULTIVOS DE BACTERIAS ESPECÍFICAS, SAL, FÉCULA DE MAÍZ.</p>       
+                        </div>
+                        <div class="card__info">
+                            <div class="card__date">
+                            12/01/2023
+                            </div>
+                            <div class="card__price">
+                            $1.100,00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footerCard">
+                        <a class="card__btn-buy" href="#">
+                            Comprar
+                        </a>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Detalle
+                            </a>
+                        </div>
+                    </div>
+                </article> 
+
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Imagen3.webp" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            MAPLE POR 30 HUEVOS
+                        </div>
+                        <div class="card__description">
+                            <p class="card__texto">Huevos de gallinas libres de jaula</p> 
+                            
+                        </div>
+                        <div class="card__info">
+                            <div class="card__date">
+                            12/01/2023
+                            </div>
+                            <div class="card__price">
+                            $900,00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footerCard">
+                        <a class="card__btn-buy" href="#">
+                            Comprar
+                        </a>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Detalle
+                            </a>
+                        </div>
+                    </div>
+                </article> 
+
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/imagen-4b.webp" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            MIEL
+                        </div>
+                        <div class="card__description">
+                            <p class="card__texto">Miel Floral, 100 % natural</p> 
+                            <p class="card__texto">1 frasco x 500 g</p> 
+                            <p class="card__texto"> <b>VER MÍNIMO DE COMPRA EN "CÓMO COMPRAR"</b></p>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__date">
+                            12/01/2023
+                            </div>
+                            <div class="card__price">
+                            $750,00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footerCard">
+                        <a class="card__btn-buy" href="#">
+                            Comprar
+                        </a>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Detalle
+                            </a>
+                        </div>
+                    </div>
+                </article> 
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/imagen5.webp" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            QUESO EN FLOR - NUEVO!
+                        </div>
+                        <div class="card__description">
+                            <p class="card__texto">Queso semiduro cubierto con aceite de oliva, cera de abejas, flores de aciano, caléndula y pétalos de rosas.</p> 
+                        </div>
+                        <div class="card__info">
+                            <div class="card__date">
+                            12/01/2023
+                            </div>
+                            <div class="card__price">
+                            $1.350,00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footerCard">
+                        <a class="card__btn-buy" href="#">
+                            Comprar
+                        </a>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Detalle
+                            </a>
+                        </div>
+                    </div>
+                </article> 
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/imagen6.webp" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            DULCE DE LECHE X 1 KG
+                        </div>
+                        <div class="card__description">
+                            <p class="card__texto">Dulce de leche - LIBRE DE GLUTEN</p> 
+                            <p class="card__texto">Contiene 1 kg</p> 
+                            <p class="card__texto"> INGREDIENTES: LECHE DE VACA, AZÚCAR ORGÁNICA, BICARBONATO DE SODIO, GLUCOSA.</p>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__date">
+                            12/01/2023
+                            </div>
+                            <div class="card__price">
+                            $660,00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footerCard">
+                        <a class="card__btn-buy" href="#">
+                            Comprar
+                        </a>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Detalle
+                            </a>
+                        </div>
+                    </div>
+                </article> 
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/imagen7.webp" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            CAMPECHE
+                        </div>
+                        <div class="card__description">
+                            <p class="card__texto">Homa de Campeche - LIBRE DE GLUTEN</p> 
+                            <p class="card__texto">Contiene 3 kg aproximadamente</p> 
+                            <p class="card__texto">35 días de maduración</p>
+                            <p class="card__texto">INGREDIENTES: LECHE ORGÁNICA PASTEURIZADA DE VACA, CLORURO DE CALCIO, ENZIMAS COAGULNTES, CULTIVOS DE BACTERIAS ESPECÍFICAS, SAL.</p>
+                            <p class="card__texto"> <b>VER MÍNIMO DE COMPRA EN "CÓMO COMPRAR"</b></p>
+                       
+                        </div>
+                        <div class="card__info">
+                            <div class="card__date">
+                            12/01/2023
+                            </div>
+                            <div class="card__price">
+                            $7.250,00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footerCard">
+                        <a class="card__btn-buy" href="#">
+                            Comprar
+                        </a>
                         <div class="card__btn-container">
                             <a class="card__btn" href="#">
                                 Detalle
@@ -94,76 +320,139 @@
                         </div>
                     </div>
                 </article>
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/imagen8.webp" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            TOTE BAG EL ABASCAY
+                        </div>
+                        <div class="card__description">
+                            <p class="card__texto">Bolsa de tela 30 x 40 cm</p> 
+                        </div>
+                        <div class="card__info">
+                            <div class="card__date">
+                            12/01/2023
+                            </div>
+                            <div class="card__price">
+                            $850,00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footerCard">
+                        <a class="card__btn-buy" href="#">
+                            Comprar
+                        </a>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Detalle
+                            </a>
+                        </div>
+                    </div>
+                </article>  
             </div>
+
         </section>
     </main>
+
+    <!-- watsapp logo -->
+    
     <div class="whatsapp-container">
-        <a href="" class="whatsapp-container__link">
-            <img src="#" alt="Whatsapp contact link" class="whatsapp-container__img">
-            
+        <!-- <a class="go-top" href="#home">
+            <i class="fa-solid fa-circle-up"></i>
+        </a> -->
+        <a href="https://walink.co/bb672a" target="_blank">
+            <img src="https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful/2048/5302_-_Whatsapp-512.png" alt="whatsapp logo" class="logoWP">
         </a>
     </div>
+     
+    <!-- footer -->
+
     <footer class="footer">
         <div class="footer__column">
-            <ul class="footer__social-media-container">
-                <li class="footer_social-media-item">
-                    <a href="#" class="footer__social-media-link">
-                        <i class="fa-brands fa-facebook footer__contact-icon"></i>
+            <ul class="footer__contact-container">
+                <li class="footer__contact-item"> 
+                    <a href="https://www.facebook.com/casacampo.abascay" class="footer__contact-link">
+                        <i class="fa-brands fa-facebook footer__contact-icon footer__contact-icon--facebook"></i>
                         Facebook
                     </a>
                 </li>
-                <li class="footer_social-media-item">
-                    <a href="#" class="footer__contact-icon">
-                        <i class="fa-brands fa-instagram footer__contact-icon"></i>
+                <li class="footer__contact-item">
+                    <a href="https://www.instagram.com/elabascaybrandsen/" class="footer__contact-link">
+                        <i class="fa-brands fa-instagram 
+                        footer__contact-icon
+                        footer__contact-icon--instagram"></i>
                         Instagram
                     </a>
                 </li>
-                <li class="footer_social-media-item">
-                    <a href="#" class="footer__social-media-link">
-                        <!-- Icono -->
-                        <a href="#" class="footer__contact-icon">
-                            <i class="fa-brands fa-linkedin footer__contact-icon"></i>
-                            Linkedin
-                        </a>
-                        
+                <li class="footer__contact-item">
+                    <a href="https://www.linkedin.com/in/consuelo-maff%C3%ADa-a25853112/" class="footer__contact-link">
+                        <i class="fa-brands fa-linkedin 
+                        footer__contact-icon
+                        footer__contact-icon--linkedin"></i>
+                        LinkedIn
                     </a>
                 </li>
             </ul>
         </div>
         <div class="footer__column">
-            <img src="/assets/images/abascay.png" alt="Company Logo" class="footer__logo" width="100px">
-            <h1 class="footer__company-name">
-                NOMBRE DE LA EMPRESA
-            </h1>
+            <img src="/assets/images/abascay.png" alt="Company Logo" class="footer__logo" width="100">
+            <h2 class="footer__company-name">
+                @ELABASCAYBRANDSEN
+            </h2>
             <p class="footer__copyrigth">
-                Todos los derechos reservados a la compañia
+                Todos los derechos reservados al Abascay
             </p>
         </div>
         <div class="footer__column">
-            <ul class="footer__social-media-container">
-                <li class="footer_social-media-item">
-                    <a href="#" class="footer__social-media-link">
-                        <i class="fa-solid fa-phone footer__contact-icon"></i>
+            <ul class="footer__contact-container">
+                <li class="footer__contact-item">
+                    <a href="tel:+5491156182673" class="footer__contact-link">
+                        <i class="fa-solid 
+                        fa-square-phone-flip 
+                        footer__contact-icon--phone"></i>
                         Telefono
                     </a>
                 </li>
-                <li class="footer_social-media-item">
-                    <a href="#" class="footer__social-media-link">
-                        <i class="fa-solid fa-location-pin footer__contact-icon"></i>
+                <li class="footer__contact-item">
+                    <a href="/pages/contact/location.html" class="footer__contact-link">
+                        <i class="fa-solid 
+                        fa-location-dot 
+                        footer__contact-icon--location"></i>
                         Localizacion
                     </a>
                 </li>
-                <li class="footer_social-media-item">
-                    <a href="#" class="footer__social-media-link">
-                        <i class="fa-regular fa-envelope footer__contact-icon"></i>
+                <li class="footer__contact-item">
+                    <a href="mailto:holaabascay@gmail.com" class="footer__contact-link">
+                    
+                        
+                        <i class="fa-solid 
+                        fa-envelope 
+                        footer__contact-icon--email"></i>
                         Email
+                    </a>
+                </li>
+                <li class="footer__contact-item">
+                    <a href="/index.html" class="footer__contact-link">
+                    
+                        <i class="fa-solid 
+                        fa-house-user
+                        footer__contact-icon--home"></i>
+                        Inicio
                     </a>
                 </li>
             </ul>
         </div>
-
-
     </footer>
+    <!-- <div class="whatsapp-container">
+        <a class="go-top" href="#home">
+            <i class="fa-solid fa-circle-up"></i>
+        </a>
+        <a href="https://walink.co/1565a1" target="_blank">
+            <img src="https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful/2048/5302_-_Whatsapp-512.png" alt="whatsapp logo" class="logoWP">
+        </a>
+    </div> -->
     
 </body>
 </html>
