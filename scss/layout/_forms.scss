@@ -27,11 +27,12 @@
         align-items: center;
         // justify-content: center;
         padding-top: 5rem;
-        border-bottom:0.1rem #8a8a8a solid;
+        // border-bottom:0.1rem #8a8a8a solid;
         padding: 0.2rem;
         margin: 1rem;
         // margin-left: 2rem;
         color:#535353; 
+        
        
     }
 }
@@ -42,7 +43,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #EBEAEA;
+    padding-top: 1rem;
     &__form {
+
         border-radius: 1rem;
         display: flex;
         flex-direction: column;

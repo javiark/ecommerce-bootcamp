@@ -243,6 +243,7 @@ body {
   background-color: rgb(168, 165, 165);
   justify-content: space-between;
   padding-right: 5rem;
+  height: 100%;
 }
 .footer__contact-item {
   list-style: none;
@@ -287,10 +288,6 @@ body {
 @media screen and (min-width: 600px) {
   .footer {
     flex-direction: row;
-  }
-  .footer__column {
-    justify-content: space-between;
-    height: 5rem;
   }
 }
 .main {
@@ -437,7 +434,6 @@ body {
   width: 100%;
   align-items: center;
   padding-top: 5rem;
-  border-bottom: 0.1rem #8a8a8a solid;
   padding: 0.2rem;
   margin: 1rem;
   color: #535353;
@@ -447,6 +443,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #EBEAEA;
+  padding-top: 1rem;
 }
 .register__form {
   border-radius: 1rem;
