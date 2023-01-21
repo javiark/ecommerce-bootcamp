@@ -288,6 +288,10 @@ body {
   .footer {
     flex-direction: row;
   }
+  .footer__column {
+    justify-content: space-between;
+    height: 5rem;
+  }
 }
 .main {
   margin-top: 50px;
@@ -313,6 +317,9 @@ body {
   background-color: rgb(230, 230, 230);
   border-radius: 1rem;
   font-size: 1.2rem;
+}
+.section-cards__category {
+  padding-left: 1rem;
 }
 .section-cards .cards-container {
   display: flex;
@@ -633,8 +640,8 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .section-info__videoIframe {
-  height: 37.97rem;
-  width: 67.5em;
+  height: 36.34rem;
+  width: 64.6em;
   padding-top: 2rem;
 }
 
@@ -677,7 +684,7 @@ body {
   .section-info__subtitle {
     color: #444;
     font-size: 1rem;
-    margin: 0rem 1rem 0rem 1rem;
+    margin: 0rem 3rem 0rem 3rem;
     padding-top: 0.5rem;
   }
   .section-info__products-search-container {
