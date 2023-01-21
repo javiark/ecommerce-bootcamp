@@ -419,12 +419,17 @@ body {
     width: 100%;
   }
 }
+body {
+  background-color: #EBEAEA;
+}
+
 .bodyform {
   display: flex;
   flex-direction: column;
 }
 
 .headerCard {
+  background-color: white;
   text-align: center;
   letter-spacing: 3px;
   height: 80px;
@@ -444,7 +449,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #EBEAEA;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
 .register__form {
   border-radius: 1rem;
@@ -584,6 +589,14 @@ body {
   height: 100%;
 }
 @media screen and (max-width: 600px) {
+  .register .register {
+    height: 100%;
+    padding-top: 5rem;
+  }
+  .register .register__form {
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
   .register .headerCard {
     height: 100px;
     margin-bottom: 1rem;

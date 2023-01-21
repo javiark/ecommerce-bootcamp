@@ -1,6 +1,6 @@
-// body {
-//     background-color: black;
-// }
+body {
+    background-color: #EBEAEA; 
+}
 
 
 .bodyform {
@@ -15,14 +15,16 @@
 
 .headerCard {
     // flex-grow: 1;
+    background-color: white ;
     text-align: center;  
     letter-spacing: 3px;
     height: 80px;
     display: flex;
+
     
     
     &__title {
-        
+
         width: 100%;
         align-items: center;
         // justify-content: center;
@@ -44,7 +46,8 @@
     align-items: center;
     justify-content: center;
     background-color: #EBEAEA;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+
     &__form {
 
         border-radius: 1rem;
@@ -194,6 +197,15 @@
     }
 
     @media screen and (max-width: 600px) {
+        .register{
+            height: 100%;
+            padding-top:5rem;
+            &__form{
+                padding-top: 1rem;
+                margin-top: 1rem;
+            }
+           
+        }
         .headerCard {
             height: 100px;
             margin-bottom: 1rem ;
