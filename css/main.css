@@ -47,8 +47,11 @@ body {
      object-fit: cover;
 }
 .card__img:hover {
-  transform: scale(1.04);
+  transform: scale(1.05);
   transition: 0.5s ease-in-out;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }
 .card__body {
   display: flex;
@@ -409,6 +412,7 @@ body {
   .main {
     display: inline-block;
     flex-direction: row;
+    width: 100%;
   }
 }
 .bodyform {
@@ -628,6 +632,11 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
+.section-info__videoIframe {
+  height: 37.97rem;
+  width: 67.5em;
+  padding-top: 2rem;
+}
 
 .imageAboutUs {
   height: 45rem;
@@ -674,6 +683,11 @@ body {
     background-color: rgb(230, 230, 230);
     border-radius: 1rem;
     font-size: 1.2rem;
+  }
+  .section-info__videoIframe {
+    height: 16.875rem;
+    width: 30rem;
+    padding-top: 1rem;
   }
   .section-info .cards-container {
     display: flex;

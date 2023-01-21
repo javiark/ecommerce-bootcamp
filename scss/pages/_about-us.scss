@@ -23,6 +23,12 @@
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 
+    &__videoIframe{
+        height: 37.97rem;
+        width: 67.5em;
+        padding-top: 2rem;
+    }
+
 }
 
 .imageAboutUs {
@@ -76,15 +82,21 @@
                 padding: 1rem;
                 background-color: rgb(230, 230, 230);
                 border-radius: 1rem;
-                font-size: 1.2rem;
-                
+                font-size: 1.2rem;  
             }
+            &__videoIframe{
+                height: 16.875rem;
+                width: 30rem;
+                padding-top: 1rem;
+            }
+
         
             .cards-container {
                 display: flex;
                 display: grid;
                 grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             }
+
         
         }
     
