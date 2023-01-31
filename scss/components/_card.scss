@@ -8,6 +8,8 @@
     &__header {
         height: 400px;
         background-color: orange;
+        overflow: hidden;
+ 
     }
 
     &__img {
@@ -17,14 +19,14 @@
         
     }
  
-
     // &__img:hover {
-    //     transform: scale(1.05);
-    //     transition: 0.5s ease-in-out;
-    //     object-fit: cover;
-    //     width: 100%;
-        
+    //     // transform: scale(1.10);
+    //     transition: .5s ease-in-out;
+    //     z-index: 0;
+    //     box-shadow: 0 0 15px #337223;
     // }
+
+
     &__body {
         display: flex;
         flex-direction: column;
@@ -94,12 +96,25 @@
         color: white;
         border-radius: 8px;
     }
+
+    &__btn:hover {
+        box-shadow: 0 0 5px #858585;
+        transition: all 0.5s ease;
+    }
     &__btn-buy{
         padding: 1rem 1.5rem;
         background-color: #c3a343;
         color: white;
         border-radius: 8px;
     }
+    &__btn-buy:hover{
+        box-shadow: 0 0 5px #858585;
+        transition: all 0.5s ease;
+    }
+
+
+
+ 
     &__footerCard{
         display: flex;
         justify-content: space-between;

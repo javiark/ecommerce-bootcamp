@@ -39,6 +39,7 @@ body {
 .card__header {
   height: 400px;
   background-color: orange;
+  overflow: hidden;
 }
 .card__img {
   width: 100%;
@@ -93,11 +94,19 @@ body {
   color: white;
   border-radius: 8px;
 }
+.card__btn:hover {
+  box-shadow: 0 0 5px #858585;
+  transition: all 0.5s ease;
+}
 .card__btn-buy {
   padding: 1rem 1.5rem;
   background-color: #c3a343;
   color: white;
   border-radius: 8px;
+}
+.card__btn-buy:hover {
+  box-shadow: 0 0 5px #858585;
+  transition: all 0.5s ease;
 }
 .card__footerCard {
   display: flex;
@@ -199,6 +208,10 @@ body {
 .navbar__nav-link {
   color: black;
 }
+.navbar__nav-link:hover {
+  color: #C3A343;
+  font-weight: 400;
+}
 
 .user-navbar {
   margin-left: auto;
@@ -252,6 +265,9 @@ body {
   align-items: center;
   gap: 0.5rem;
   color: #535353;
+}
+.footer__contact-link:hover {
+  font-weight: 600;
 }
 .footer__contact-icon {
   font-size: 1.75rem;
@@ -608,14 +624,27 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: ease 0.3s;
+  -webkit-animation: efecto 1.2s infinite;
+          animation: efecto 1.2s infinite;
 }
-.whatsapp-container____go-top {
+
+.go-top {
   color: rgb(0, 0, 0);
   font-size: 36px;
+  background-color: aqua;
 }
 
 .logoWP {
   height: 5rem;
+  transition: ease 0.3s;
+  -webkit-animation: efecto 1.2s infinite;
+          animation: efecto 1.2s infinite;
+}
+
+.logoWP:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 
 .section-info__header {
@@ -633,15 +662,16 @@ body {
   border-radius: 1rem;
   font-size: 1.2rem;
 }
-.section-info .cards-container {
-  display: flex;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
 .section-info__videoIframe {
   height: 36.34rem;
   width: 64.6em;
   padding-top: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .imageAboutUs {

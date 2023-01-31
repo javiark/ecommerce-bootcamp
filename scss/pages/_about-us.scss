@@ -17,20 +17,26 @@
         font-size: 1.2rem;
         
     }
-
+    &__videoIframe{
+        height: 36.34rem;
+        width: 64.6em;
+        padding-top: 2rem;
+    }
+}
     .cards-container {
         display: flex;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 
-    &__videoIframe{
-        height: 36.34rem;
-        width: 64.6em;
-        padding-top: 2rem;
-    }
+        
+      
 
-}
+    
+
+
+
+
 
 .imageAboutUs {
     padding-top: 2rem;

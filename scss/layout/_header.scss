@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     position: relative;
+   
     &__logo {
         height: 45px;
     }
@@ -101,6 +102,10 @@
     }
     &__nav-link {
         color: black;
+    }
+    &__nav-link:hover {
+        color: #C3A343;
+        font-weight: 400;
     }
 
 }

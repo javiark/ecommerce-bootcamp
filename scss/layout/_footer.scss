@@ -25,6 +25,11 @@
         color:#535353;   
     }
 
+    &__contact-link:hover{
+       font-weight: 600;
+    //    background-color: #003fee;
+    }
+
     &__contact-icon {
         font-size: 1.75rem;
         &--facebook {
@@ -39,6 +44,13 @@
         &--phone{
             color: #10e0108f;
         }
+        // &--phone:hover{
+        //     box-shadow: 0 0 5px #10e0108f;
+        //     transition: all 0.5s ease;
+        // }
+
+        
+
         &--location{
             color: #003fee;
         }
