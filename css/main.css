@@ -758,9 +758,17 @@ body {
   justify-content: left;
   padding: 30px;
   padding-top: 20px;
+  height: 50rem;
   background-color: rgb(235, 234, 234);
 }
 .ContactLocation__Iframe {
-  width: 900px;
+  padding: 15px;
+  width: 500px;
   height: 450px;
+}
+
+.iframeLocation {
+  padding-top: 2rem;
+  margin: 10px auto;
+  height: 70rem;
 }
