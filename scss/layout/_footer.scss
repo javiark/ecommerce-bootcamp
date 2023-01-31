@@ -5,6 +5,13 @@
     justify-content: space-between;
     padding-right:5rem;
     height: 100%;
+     
+    &__logo{
+        display: flex;
+        justify-content: center;
+        margin: 5px auto;
+   
+    }
 
     &__contact-item {
         list-style: none;   
