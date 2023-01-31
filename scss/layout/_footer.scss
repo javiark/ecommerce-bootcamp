@@ -3,8 +3,11 @@
     flex-direction: column;
     background-color: $color-dark-gray;
     justify-content: space-between;
-    padding-right:5rem;
-    height: 100%;
+    padding-right:5rem;  
+    
+    width: 100%;
+   
+ 
      
     &__logo{
         display: flex;
@@ -75,6 +78,9 @@
 @media screen and(min-width: 600px) {
     .footer {
         flex-direction: row;
+
+        
+ 
 
     }
 
