@@ -179,9 +179,13 @@
     border-radius: 0.5rem;
 
     }
+    &__send:hover{
+    background-color: rgb(196, 191, 191);
+    color:  #2c2c2c;
+    font-weight: 600;
         
     }
-
+}
     input:focus, textarea:focus {
         color: rgb(9, 4, 83);
     }

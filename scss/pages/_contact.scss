@@ -49,12 +49,18 @@
 }
 
 .btn {
-    background-color: rgb(230, 231, 231);
-    border-color: rgb(192, 192, 192);
-    height: 30px;
-    width: 60px;
-    border-radius: 5px;
-    box-shadow: none; 
+    background-color:  #c3a343 ;
+    border: none;
+    color: white;
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+    background-color: rgb(196, 191, 191);
+    color:  #2c2c2c;
+    font-weight: 600;
 }
 
 
