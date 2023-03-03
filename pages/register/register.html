@@ -50,19 +50,18 @@
         
     </header>
 
-        <h1 class="headerCard__title"></h1>
-    </header>
+ <!-- =================INFO=================  -->
+ <main class="main1">
     <section class="register">
-        
         <form class="register__form">
             <div class="register__casillero">
                 <label for="idInputName" class="register__text1">Nombre Completo</label><br>
-                <input type="text" name="name" id="idInputName" required value="Nombre y apellido"  class="register__box" minlength="8" maxlength="40" size="50" autofocus >
+                <input type="text" name="name" id="idInputName" required class="register__box" minlength="8" maxlength="40" size="50" autofocus >
             </div>
 
             <div class="register__casillero1">
                 <label for="emailInput" class="register__text1" >Correo Electrónico</label> <br>
-                <input type="email" value="nombre@ejemplo.com" name="email" id="emailInput"   class="register__boxmail" minlength="8" maxlength="45" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required > 
+                <input type="email" placeholder="nombre@ejemplo.com" name="email" id="emailInput"   class="register__boxmail" minlength="8" maxlength="45" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required > 
                 <!-- <button class="register__button" > <div class="register__3points">...</div></button> -->
             </div>
 
@@ -73,7 +72,7 @@
 
             <div class="register__casillero">
                 <label for="passwordInput" class="register__text1"> Repetir contraseña</label> <br>
-                <input type="password" name="password" id="passwordInput" required class="register__password" minlength="8" maxlength="45"> 
+                <input type="password" name="passwordRepetir" id="passwordInput" required class="register__password" minlength="8" maxlength="45"> 
             </div>
 
             <div class="register__casillero">

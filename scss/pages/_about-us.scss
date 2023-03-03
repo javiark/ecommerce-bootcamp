@@ -44,6 +44,9 @@
 }
 
 @media screen and (max-width: 500px) {
+    .main{
+        padding-bottom: 3rem;
+    }
     .form { 
         padding: 10px;
         height: 450px;
@@ -60,6 +63,7 @@
         }
     }
     .Contact {
+        
         // background-color: brown;
         flex-direction: row;
         &__Iframe{  
@@ -68,7 +72,8 @@
         }   }
     
         .imageAboutUs {
-            height:20rem;
+            height:15.4rem;
+            justify-content: center;
             // display: flex;
             // justify-content: space-evenly;
             object-fit: cover;
@@ -95,8 +100,8 @@
                 font-size: 1.2rem;  
             }
             &__videoIframe{
-                height: 15.18em;
-                width: 27rem;
+                height: 12rem;
+                width: 80%;
                 padding-top: 1rem;
             }
 

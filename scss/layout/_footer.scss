@@ -75,13 +75,44 @@
 }
 
 
-@media screen and(min-width: 600px) {
+@media screen and (min-width: 600px) {
     .footer {
         flex-direction: row;
-
-        
- 
-
     }
 
+
+
 }
+
+@media screen and (max-width: 500px) {
+    .footer {
+        &__contact-link {
+
+            padding: .1rem;
+        }
+        
+        &__column{
+            padding: .3rem 1.5rem;
+        }
+        &__company-name{
+            font-size: 1.3rem;
+        }
+        &__copyrigth{
+            font-size: .7rem;
+        }
+  
+        &__logo{
+
+            padding-bottom: 0.3rem;
+            height:5rem;
+            width: 12rem;
+            display: flex;
+            justify-content: space-evenly;
+            object-fit: cover;
+            
+       
+        }}
+}
+
+
+
